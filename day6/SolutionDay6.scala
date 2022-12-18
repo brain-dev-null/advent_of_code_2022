@@ -1,9 +1,9 @@
 import scala.io.Source
 
-object SolutionDay6 {
+object Solution {
 
   def main(args: Array[String]): Unit = {
-    val source = Source.fromFile("input.txt")
+    val source = Source.fromFile("input_day_6.txt")
     val data = source.getLines().toList
     source.close()
 
