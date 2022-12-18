@@ -2,10 +2,10 @@ import Solution.Shape.{Paper, Rock}
 
 import scala.io.Source
 
-object Solution {
+object SolutionDay2 {
 
   def main(args: Array[String]): Unit = {
-    val data = getData("input.txt")
+    val data = getData("input_day_2.txt")
 
     val resultA = partA(data)
     val resultB = partB(data)

@@ -5,7 +5,7 @@ typealias Range = Pair<Int, Int>
 typealias RangePair = Pair<Range, Range>
 
 fun main(args: Array<String>) {
-    val data = File("input.txt").useLines { it.toList() }
+    val data = File("input_day_4.txt").useLines { it.toList() }
 
     val resultA = partA(data)
     val resultB = partB(data)

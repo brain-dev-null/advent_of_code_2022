@@ -1,6 +1,6 @@
 import scala.io.Source
 
-object Solution {
+object SolutionDay6 {
 
   def main(args: Array[String]): Unit = {
     val source = Source.fromFile("input.txt")

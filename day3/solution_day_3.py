@@ -63,7 +63,7 @@ def read_lines_from_file(file_path: str) -> List[str]:
 
 if __name__ == "__main__":
 
-    input_text = read_lines_from_file("input.txt")
+    input_text = read_lines_from_file("input_day_3.txt")
     
     solution_one = run_one(input_text)
     solution_two = run_two(input_text)

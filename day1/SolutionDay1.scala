@@ -2,10 +2,10 @@ import java.nio.file.{FileSystem, FileSystems}
 import scala.io.Source
 import scala.io.StdIn.readLine
 
-object Solution {
+object SolutionDay1 {
 
   def main(args: Array[String]): Unit = {
-    val data = getData("input.txt")
+    val data = getData("input_day_1.txt")
 
     val resultA = partA(data)
     val resultB = partB(data)
